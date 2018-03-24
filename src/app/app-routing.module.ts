@@ -10,6 +10,7 @@ import { LinksComponent } from './links/links.component';
 const routes: Routes = [
   { path: '', redirectTo: '/start', pathMatch: 'full' },
   { path: 'start', component: StartComponent },
+  { path: 'hannover', component: HannoverComponent },
   { path: 'projects', component: ProjectsComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'media', component: MediaComponent },
