@@ -5,7 +5,7 @@
   },
   "apps": [
     {
-      "root": "src",
+      "root": "apache-tomcat7-8080/webapps/jazzbuch-hannover",
       "outDir": "dist",
       "assets": [
         "assets",
@@ -19,9 +19,14 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.scss"
+        "styles.scss",
+        "bootstrap.min.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "bootstrap.min.js",
+        "popper.min.js",
+        "jquery-3.3.1.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

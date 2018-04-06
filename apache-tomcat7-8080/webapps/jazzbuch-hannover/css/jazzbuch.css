@@ -1,0 +1,66 @@
+.scrollspy-example {
+    position: relative;
+    height: 200px;
+    margin-top: .5rem;
+    overflow: auto;
+}
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.navbar-default {
+	background-color: rgb(225, 78, 133);
+	border-color: #e7e7e7
+}
+
+.navbar-default .navbar-nav>.open>a,.navbar-default .navbar-nav>.open>a:hover,.navbar-default .navbar-nav>.open>a:focus
+	{
+	background-color: rgb(246, 111, 167);
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus
+	{
+	color: #fff;
+	background-color: rgb(246, 111, 167);
+}
+
+.navbar-default .navbar-brand {
+	color: rgb(255, 209, 230);
+}
+
+.navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus
+	{
+	color: #fff;
+	background-color: rgb(246, 111, 167);)
+
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: rgb(255, 209, 230);	
+}
+
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus
+	{
+	color: #fff;
+	background-color: rgb(246, 111, 167);
+}
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus {
+	text-decoration: none;
+color: #fff;
+	background-color: rgb(246, 111, 167);
+}
+
+.page-header {
+	padding-bottom: 9px;
+	margin: 220px 0 20px;
+	border-bottom: 1px solid #eee
+}
+
+.box-shadow {
+	box-shadow: 5px 5px 5px #888888;
+}
+
