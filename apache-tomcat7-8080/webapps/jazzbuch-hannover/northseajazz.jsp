@@ -1,50 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<%@include file="includes/head.jsp" %>
-
+<%@include file="includes/head.jsp"%>
 
 <body>
 	<div id="wrap">
 		<!-- Wrap all page content here -->
-
 		<!-- Fixed navbar -->
-					<%@include file="includes/nav.jsp" %>
+		<%@include file="includes/nav.jsp"%>
+		<!-- End Navbar -->
 
-		<!-- Navbar -->
 		<!-- Begin page content -->
-
-
-		<div class="container">
-			<div class="page-header">
-				<h1>North Sea Jazzfestivals</h1>
+		<div class="container-fluid p-3 p-md-5">
+			<div class="jumbotron">
+				<h1 class="display-4">North Sea Jazzfestivals</h1>
+				<p class="lead">Eine Dokumentation</p>
 			</div>
+			<div class="card flex-md-row mb-3 h-md-250">
 
-			<p class="lead">Eine Dokumentation</p>
-
-
-			<div class="row placeholders">
 				<div
 					style="width: image width px; font-size: 80%; text-align: left;"
-					class="col-xs-2 col-sm-4 placeholder">
-					<img src="images/buch-seitenansicht-north-sea.jpg"
-						class="img-responsive box-shadow"
+					class="card-body d-flex flex-column ">
+					<img src="images/image095.jpg" class="img-responsive box-shadow"
 						alt="Generic placeholder thumbnail"> <span
 						class="text-muted"><br />Das Buch ist als Geschenk in 2012
-						herausgegeben worden und ist unverkÃ¤uflich.</span>
+						herausgegeben worden und ist unverkäuflich.</span>
 				</div>
-
-				<p>Das erste North Sea Jazz Festival fand im Jahr 1976 in Den
-					Haag Dutch Congress statt. In den AnfÃ¤ngen gab es sechs
+				<div class="card-body d-flex flex-column ">				
+							<p>Das erste North Sea Jazz Festival fand im Jahr 1976 in Den
+					Haag Dutch Congress statt. In den Anfängen gab es sechs
 					Veranstaltungsorte. Im Vergleich zu heute waren die Erfolgszahlen
-					eher bescheiden. Dennoch traten JazzgrÃ¶ÃŸen wie Sarah Vaughan, Count
-					Basie, Dizzy Gillespie, Stan Getz und viele andere in den AnfÃ¤ngen
+					eher bescheiden. Dennoch traten JazzgrössŸen wie Sarah Vaughan, Count
+					Basie, Dizzy Gillespie, Stan Getz und viele andere in den Anfängen
 					auf.</p>
 				<p>Zu einer international bedeutenden Jazzveranstaltung ist das
-					North Sea Jazz Festival geworden und Ã¼ber die Jahre enorm
-					angewachsen. Die Bedeutung lÃ¤sst sich anhand der Entwicklungszahlen
-					verdeutlichen. 1976 waren es noch ca. 3OO KÃ¼nstler und Ã¼ber die
+					North Sea Jazz Festival geworden und über die Jahre enorm
+					angewachsen. Die Bedeutung lässt sich anhand der Entwicklungszahlen
+					verdeutlichen. 1976 waren es noch ca. 3OO Künstler und über die
 					Jahre auf etwa 1300 angewachsen. Auch die Besucherzahl wuchs von
-					rd. 9.000 auf rd. 65.000 in dem ab 2006 neuen und groÃŸzÃ¼gigen
+					rd. 9.000 auf rd. 65.000 in dem ab 2006 neuen und grosszügigen
 					Veranstaltungsort, im Ahoy Kongresszentrum Rotterdam.</p>
 				<p>Einen bunten Reigen von unterschiedlichen Musikrichtungen
 					bietet das North Sea Jazz Festival. Angefangen vom traditionellen
@@ -56,24 +49,18 @@
 					Coleman, Miles Davis, Candy Dulfer, Ibrahim Ferrer, Ella
 					Fitzgerald, Alicia Keys, Lionel Hampton, AI Jarreau, BB King,
 					Wynton Marsalis, George Benson, Norah Jones, James Brown, um nur
-					einige zu nennen bietet das Festival auch neuen Talenten eine
-					Plattform, um in der Ã–ffentlichkeit bekannt zu werden.</p>
+					einige zu nennen, bietet das Festival auch neuen Talenten eine
+					Plattform, um in der Ö–ffentlichkeit bekannt zu werden.</p>
 				<p>Das North Sea Jazz Festival ist ein grandioses Schauspiel, an
-					dem an drei Tagen die Mitwirkenden und die GÃ¤ste sich ganz der
+					dem an drei Tagen die Mitwirkenden und die Gäste sich ganz der
 					improvisierten Musik, dem Jazz widmen.</p>
-
-
-				<!-- 	<h3 id="download-bootstrap">
-					<a href="pdf/Buch-Heinz Both-intern.pdf">Das Buch zum
-						Download</a>
-				</h3> -->
+				</div>
 			</div>
-
 		</div>
+		<!-- End page content -->
 	</div>
-
 	<!-- footer start -->
-				<%@include file="includes/footer.jsp" %>
-		<!-- footer end -->
+	<%@include file="includes/footer.jsp"%>
+	<!-- footer end -->
 </body>
 </html>

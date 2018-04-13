@@ -1,30 +1,34 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <%@include file="includes/head.jsp"%>
+
 <body>
 	<div id="wrap">
 		<!-- Wrap all page content here -->
 		<!-- Fixed navbar -->
 		<%@include file="includes/nav.jsp"%>
-		<!-- Emd Navbar -->
+		<!-- End Navbar -->
+
 		<!-- Begin page content -->
 		<div class="container-fluid p-3 p-md-5">
 			<div class="jumbotron">
 				<h1 class="display-4">Heinz Both</h1>
 				<p class="lead">Sein Leben - Seine Musik</p>
-					<p>Der Autor und Zeitzeuge Gerhard Evertz stellt in diesem Buch
+				<p>Der Autor und Zeitzeuge Gerhard Evertz stellt in diesem Buch
 						den großen Musiker Heinz Both, sein Leben und seine Musik vor.</p>
 			</div>
-			<div class="card flex-md-row mb-4 h-md-250">
-							<div
+			<div class="card flex-md-row mb-3 h-md-250">
+
+				<div
 					style="width: image width px; font-size: 80%; text-align: left;"
 					class="card-body d-flex flex-column ">
 					<img src="images/image095.jpg" class="img-responsive box-shadow"
 						alt="Generic placeholder thumbnail"> <span
 						class="text-muted"><br />Das Buch wurde 2011 herausgegeben.</span>
 				</div>
-					
-				<div class="card-body d-flex flex-column align-items-start">
+
+
+				<div class="card-body d-flex flex-column ">
 					<p>Both gründete die Jugendband Hannover, die heute als
 						Jugend-Bigband Hannover den Ton bei zahlreichen Konzerten vom
 						Maschsee- bis zum Schützenfest angibt. Unter der Leitung des heute
@@ -45,10 +49,12 @@
 					<a href="pdf/Buch-Heinz Both-intern.pdf">Das Buch zum
 						Download</a>
 				</h3> -->
+
 				</div>
 			</div>
 		</div>
 		<!-- End page content -->
+
 	</div>
 
 	<!-- footer start -->
