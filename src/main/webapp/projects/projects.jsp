@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<%@include file="includes/head.jsp"%>
 <style>
 .center-img {
 	display: block;
@@ -9,11 +6,7 @@
 	width: 70%;
 }
 </style>
-<body>
-	<div id="wrap">
-		<!-- Wrap all page content here -->
-		<%@include file="includes/nav.jsp"%>
-		<!-- Begin page content -->
+
 		<div class="container-fluid p-3 p-md-5">
 			<div class="jumbotron">
 				<h1 class="display-4">Weitere Projekte</h1>
@@ -113,10 +106,3 @@
 					
 				</div>
 		</div>
-		<!-- End page content -->
-
-		<!-- footer start -->
-		<%@include file="includes/footer.jsp"%>
-		<!-- footer end -->
-</body>
-</html>

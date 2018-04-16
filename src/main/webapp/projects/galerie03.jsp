@@ -1,26 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<%@include file="includes/head.jsp" %>
-
-
-</head>
-
-<body>
-	<div id="wrap">
-		<!-- Wrap all page content here -->
-
-		<!-- Fixed navbar -->
-								<%@include file="includes/nav.jsp" %>
-
-		<!-- Navbar -->
-		<!-- Begin page content -->
-
-
-		<div class="container">
-			<div class="page-header">
-				<h1>Media - Presse-Echo</h1>
+		<div class="container-fluid p-3 p-md-5">
+			<div class="jumbotron">
+				<h1 class="display-4">Media - Presse-Echo</h1>
+				<p class="lead">Galerie 03</p>
 			</div>
-
 
 			<div class="row placeholders">
 
@@ -132,10 +114,4 @@
 			</div>
 
 		</div>
-	</div>
-
-	<!-- footer start -->
-				<%@include file="includes/footer.jsp" %>
-		<!-- footer end -->
-</body>
-</html>
+	

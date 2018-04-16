@@ -1,18 +1,6 @@
-ï»¿<!DOCTYPE html>
-<html lang="en">
-<%@include file="includes/head.jsp"%>
-
-<body>
-	<div id="wrap">
-		<!-- Wrap all page content here -->
-		<!-- Fixed navbar -->
-		<%@include file="includes/nav.jsp"%>
-		<!-- Navbar -->
-		<!-- Begin page content -->
-
 		<div class="container-fluid p-3 p-md-5">
 			<div class="jumbotron">
-				<h1 class="display-4">Ein StÃ¼ck Jazzgeschichte</h1>
+				<h1 class="display-4">Ein Stück Jazzgeschichte</h1>
 				<p class="lead">Die Doppel CD zum Buch</p>
 			</div>
 
@@ -22,7 +10,7 @@
 					class="card-body  ">
 					<img src="images/image068.jpg" class="img-responsive box-shadow"
 						alt="Generic placeholder thumbnail"> <span
-						class="text-muted"><br />Ein StÃ¼ck Jazzgeschichte - Eine
+						class="text-muted"><br />Ein Stück Jazzgeschichte - Eine
 						musikalische Zeitreise Herausgegeben in 2007</span>
 				</div>
 					
@@ -36,10 +24,3 @@
 					<%@include file="jazzgeschichte_cd_table.jsp"%>
 			</div>
 		</div>
-	</div>
-
-	<!-- footer start -->
-	<%@include file="includes/footer.jsp"%>
-	<!-- footer end -->
-</body>
-</html>

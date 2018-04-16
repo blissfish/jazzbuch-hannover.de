@@ -1,22 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<%@include file="includes/head.jsp" %>
-link href="css/jazzbuch.css" rel="stylesheet">
-
-
-</head>
-
-<body>
-	<div id="wrap">
-		<!-- Wrap all page content here -->
-
-		<!-- Fixed navbar -->
-						<%@include file="includes/nav.jsp" %>
-
-		<!-- Navbar -->
-		<!-- Begin page content -->
-
-
 		<div class="container">
 			<div class="page-header">
 				<h1>Audio</h1>
@@ -38,10 +19,3 @@ link href="css/jazzbuch.css" rel="stylesheet">
 			</div>
 
 		</div>
-	</div>
-
-	<!-- footer start -->
-				<%@include file="includes/footer.jsp" %>
-		<!-- footer end -->
-</body>
-</html>

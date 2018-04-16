@@ -1,25 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<%@include file="includes/head.jsp"%>
-<style>
-.scrollspy-example {
-    position: relative;
-    height: 380px;
-    margin-top: .5rem;
-    overflow: auto;
-}</style>
-<body>
-	<div id="wrap">
-		<!-- Wrap all page content here -->
-
-		<!-- Fixed navbar -->
-		<%@include file="includes/nav.jsp"%>
-
-		<!-- Navbar -->
-		<!-- Begin page content -->
-
-		<div class="container-fluid p-3 p-md-5">
-
+<div class="container-fluid p-3 p-md-5">
+		<div class="jumbotron">
+				<h1 class="display-4">The New Jazz Group Hannover</h1>
+				<p class="lead">Sein Leben - Seine Musik</p>
+				<p>Der Autor und Zeitzeuge Gerhard Evertz stellt in diesem Buch
+						den groﬂen Musiker Heinz Both, sein Leben und seine Musik vor.</p>
+			</div>
+		
 <h2 id="example-with-list-group">Example with list-group</h2>
 
 <p>Scrollspy also works with <code class="highlighter-rouge">.list-group</code>s. Scroll the area next to the list group and watch the active class change.</p>
@@ -64,11 +50,4 @@
     </div>
   </div>
 </div>
-		</div>
-	</div>
-
-	<!-- footer start -->
-	<%@include file="includes/footer.jsp"%>
-	<!-- footer end -->
-</body>
-</html>
+</div>

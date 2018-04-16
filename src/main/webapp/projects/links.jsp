@@ -1,30 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<%@include file="includes/head.jsp" %>
 
-<body>
-	<div id="wrap">
-		<!-- Wrap all page content here -->
-		<!-- Fixed navbar -->
-						<%@include file="includes/nav.jsp" %>
 
-		<!-- Navbar -->
-
-		<!-- Begin page content -->
-
-		<div class="container">
-			<div class="page-header">
-				<h1>Links</h1>
-			</div>
-			<p class="lead">
+		<div class="container-fluid p-3 p-md-5">
+		
+									<div class="jumbotron">
+				<h1 class="display-4">				<h1>Links</h1>
+</h1>
+							<p class="lead">
 				Nach Rücksprache mit den Betreibern der unten aufgeführten
 				verlinkten Seiten sind sie mit der Bekanntmachung auf dieser Website
 				einverstanden. Zu den Anbietern der verlinkten Seiten habe ich seit
 				vielen Jahren einen einvernehmlichen Kontakt durch meine Arbeit an
 				jazzhistorischen Projekten Für die Inhalte der externen Links kann
-				ich keine Verantwortung übernehmen, siehe auch <a
-					href="impressum.html">Impressum</a>.
+				ich keine Verantwortung übernehmen.
 			</p>
+			</div>
+			
+	
 
 			<div class="row ">
 				<div class="col-sm-6">
@@ -135,10 +126,3 @@
 
 			</div>
 		</div>
-
-	</div>
-	<!-- footer start -->
-				<%@include file="includes/footer.jsp" %>
-		<!-- footer end -->
-</body>
-</html>

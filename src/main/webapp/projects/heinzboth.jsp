@@ -1,16 +1,4 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<%@include file="includes/head.jsp"%>
-
-<body>
-	<div id="wrap">
-		<!-- Wrap all page content here -->
-		<!-- Fixed navbar -->
-		<%@include file="includes/nav.jsp"%>
-		<!-- End Navbar -->
-
-		<!-- Begin page content -->
-		<div class="container-fluid p-3 p-md-5">
+﻿		<div class="container-fluid p-3 p-md-5">
 			<div class="jumbotron">
 				<h1 class="display-4">Heinz Both</h1>
 				<p class="lead">Sein Leben - Seine Musik</p>
@@ -53,12 +41,3 @@
 				</div>
 			</div>
 		</div>
-		<!-- End page content -->
-
-	</div>
-
-	<!-- footer start -->
-	<%@include file="includes/footer.jsp"%>
-	<!-- footer end -->
-</body>
-</html>
