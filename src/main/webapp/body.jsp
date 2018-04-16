@@ -6,7 +6,7 @@
 		<%@include file="includes/nav.jsp" %>
 
 		<%String project = (String)request.getAttribute("project"); %>		
-		<jsp:include page="/projects${project}.jsp" flush="true" />
+		<jsp:include page="/content${project}.jsp" flush="true" />
 
 	</div>
 	<%@include file="includes/footer.jsp" %>

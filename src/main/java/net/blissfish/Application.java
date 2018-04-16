@@ -39,17 +39,7 @@ public class Application extends SpringBootServletInitializer {
 		String pattern = (String) request.getAttribute(HandlerMapping.BEST_MATCHING_PATTERN_ATTRIBUTE);
 		request.setAttribute("project", pattern);
 		System.out.println("Pattern matched: " + pattern);
-
 		return "body";
-
-	}
-
-	@RequestMapping(value = { "*" }, method = RequestMethod.GET)
-	public String process(HttpServletRequest request) {
-		System.out.println("*************************************");
-		System.out.println("* process " + System.currentTimeMillis() + " " + request.getAttribute("project"));
-		System.out.println("*************************************");
-		return "index";
 	}
 
 }
